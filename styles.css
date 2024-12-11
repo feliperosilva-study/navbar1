@@ -1,6 +1,5 @@
 .search-bar {
-    display: inline-flex;
-    width: auto;
+    display: flex;
     background-color: blue;
     padding: 10px;
     border-radius: 10px;
@@ -12,7 +11,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .logo {
@@ -26,29 +25,17 @@ a:hover {
 }
 
 .search-input {
+    height: 25px;
     width: 300px;
     margin-right: 10px;
     border-radius: 5px;
+    margin-left: auto;
 }
 
 .button {
+    height: 30px;
     width: 100px;
     border-radius: 5px;
-}
-
-.nav-menu {
-    display: inline-flex;
-    flex-direction: column;
-    text-align: center;
-    width: auto;
-    background-color: black;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.nav-item{
-    color: white;
-    margin: 10px;
 }
 
 @media (max-width: 768px) {
@@ -57,7 +44,7 @@ a:hover {
         flex-direction: column;
         align-items: center;
     }
-    .search-bar, .nav-menu {
+    .search-bar{
         flex-direction: column;
         align-items: center;
     }
