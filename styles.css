@@ -50,3 +50,25 @@ a:hover {
     color: white;
     margin: 10px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-bar, .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-input {
+        height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .button {
+        width: 50%;
+        font-size: 16px;
+    }
+}
