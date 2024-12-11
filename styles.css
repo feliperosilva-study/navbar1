@@ -1,3 +1,52 @@
 .search-bar {
-    color: blue;
+    display: inline-flex;
+    width: auto;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: "Hind Mysuru", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.search-input {
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.nav-menu {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.nav-item{
+    color: white;
+    margin: 10px;
 }
